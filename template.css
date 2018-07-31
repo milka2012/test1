@@ -1,0 +1,117 @@
+.bloc-main
+{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #FF0000;
+}
+
+.bloc-header
+{
+    position: absolute;
+    top: 0.1cm;
+    left: 0.1cm;
+    height: 1.0cm;
+    right: 0.1cm;
+	font-family:arial;
+	font-size:12px;
+	border:1px dotted;
+    background: linear-gradient(#408c99, #eee);
+}
+
+.bloc-header TABLE
+{
+	font-family:arial;
+	font-size:12px;
+    height: 100%;
+}
+
+.bloc-header TD
+{
+	/*vertical-align: center;*/
+}
+
+.bloc-menu
+{
+    position: absolute;
+    top:  1.3cm;
+    left: 0.1cm;
+    bottom: 1.0cm;
+    width: 3.2cm;
+	overflow-y: auto;
+	border:1px dotted;
+    background: linear-gradient(#408c99, #eee);
+}
+
+.bloc-core
+{
+    position: absolute;
+    border: 1px dotted;
+    left: 3.4cm;
+    top: 1.3cm;
+    right: 0.1cm;
+    bottom: 1.0cm;
+    background-color: #F1FFA5;
+	overflow-y: auto;
+	overflow-x: auto;
+	padding: 20px;
+    background: linear-gradient(#40998c, #eee);
+}
+
+.bloc-footer
+{
+    position: absolute;
+    border: dotted 1px;
+    left: 0.1cm;
+    height: 0.8cm;
+    right: 0.1cm;
+    bottom: 0.1cm;
+    background: linear-gradient(#eee, #408c99);
+	font-family:arial;
+	font-size:12px;
+}
+
+h1 
+{ 
+	font-family: cursive;
+	font-size:20px;
+    line-height:36px;
+}
+
+h2 
+{ 
+	font-family: cursive;
+	font-size:16px;
+    line-height:24px;
+}
+
+p
+{ 
+	font-family: cursive;
+	font-size:14px;
+	font-weight: normal;
+	margin-left: 20px;
+}
+
+#left-align
+{
+	text-align : left;
+}
+
+#center-align
+{
+	text-align : center;
+}
+
+#right-align
+{
+	text-align : right;
+}
+
+#main-font
+{
+	font-family:arial;
+	font-size:12px;
+}
